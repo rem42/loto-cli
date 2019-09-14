@@ -106,7 +106,7 @@ export class App {
                 type: 'list',
                 name: 'menu',
                 message: 'What do you want to do ?',
-                choices: [userInformation, play, playAll, quit],
+                choices: [userInformation, play, playAll, switchGame, quit],
             })
             .then((response) => {
                 switch (response.menu) {
