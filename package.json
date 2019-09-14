@@ -1,0 +1,30 @@
+{
+  "name": "loto-cli",
+  "version": "0.0.1",
+  "description": "play loto online",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' index.ts",
+    "lint": "tslint -p tsconfig.json --fix"
+  },
+  "author": "rem42 <me@remy.ovh> (https://remy.ovh)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "bananalotto-client": "0.0.2",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "commander": "^3.0.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "kingoloto-client": "0.0.3",
+    "universal-validator": "^1.0.0"
+  }
+}
