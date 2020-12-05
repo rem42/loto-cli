@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "bananalotto-client": "0.0.2",
-    "chalk": "^2.4.2",
+    "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "commander": "6.2.*",
     "figlet": "1.5.*",
