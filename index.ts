@@ -2,9 +2,10 @@
 
 import chalk from 'chalk';
 import clear from 'clear';
-import program from 'commander';
 import figlet from 'figlet';
 import {App} from './src/app';
+const { Command } = require('commander');
+const program = new Command();
 
 clear();
 console.log(chalk.red(figlet.textSync('loto-cli', { horizontalLayout: 'full' })));
