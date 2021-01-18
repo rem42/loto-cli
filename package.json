@@ -23,7 +23,7 @@
     "bananalotto-client": "0.0.2",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
-    "commander": "6.2.*",
+    "commander": "7.0.*",
     "figlet": "1.5.*",
     "inquirer": "^7.0.0",
     "kingoloto-client": "0.0.3",
